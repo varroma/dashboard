@@ -4,7 +4,7 @@ const accessPeriod=24*60*60*1000;
 function openDashboard(){
   const frame=document.createElement('iframe');
   frame.title='Айти45 Dashboard';
-  frame.src='dashboard.html';
+  frame.src='dashboard.html?v='+Date.now();
   document.body.replaceChildren(frame);
 }
 let expires=0;
