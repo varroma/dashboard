@@ -20,15 +20,15 @@ footer{height:58px;border-top:1px solid #dce4e8;display:flex;align-items:center;
 @media(max-width:700px){
   html,body{width:100%;overflow-x:hidden}
   .page{min-width:0;width:100%;max-width:none;padding:10px 8px 20px}
-  .top{height:auto;min-height:60px;display:flex;flex-wrap:wrap;gap:5px 8px;align-items:center;margin-bottom:8px}
-  .brand{min-width:0;flex:1 1 230px;align-items:center}
-  .logo{width:37px;height:37px;margin-right:6px}
-  .brandname{font-size:12px;line-height:12px;margin-right:8px;white-space:nowrap}
-  .brandname span{font-size:10px;margin-top:3px}
-  .title{min-width:0}.title h1{font-size:19px;line-height:21px}
-  .subtitle{font-size:9px;line-height:1.25}
-  .date{gap:4px;padding:0;margin-left:auto}.cal svg{width:18px;height:18px}
-  .date b{font-size:10px}.date small{font-size:9px;margin-top:1px}
+  .top{height:auto;min-height:58px;display:flex;flex-wrap:nowrap;gap:5px;align-items:center;margin-bottom:8px}
+  .brand{min-width:0;flex:1 1 auto;align-items:center}
+  .logo{width:27px;height:27px;flex:0 0 27px;margin-right:4px}
+  .brandname{font-size:10px;line-height:10px;margin-right:6px;white-space:nowrap}
+  .brandname span{font-size:8px;margin-top:2px}
+  .title{min-width:0;flex:1 1 auto}.title h1{font-size:16px;line-height:18px;white-space:nowrap}
+  .subtitle{font-size:8px;line-height:1.15;max-width:145px}
+  .date{flex:0 0 auto;gap:3px;padding:0;margin-left:auto;white-space:nowrap}.cal svg{width:15px;height:15px}
+  .date b{font-size:9px}.date small{font-size:8px;margin-top:1px}
   .kpis{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:8px 0 11px}
   .kpi{height:72px;padding:8px;border-radius:9px;min-width:0}
   .ki{width:36px;height:36px;flex:0 0 36px;margin-right:8px}
@@ -50,7 +50,6 @@ footer{height:58px;border-top:1px solid #dce4e8;display:flex;align-items:center;
   footer{height:auto;min-height:54px;gap:6px;flex-wrap:wrap;font-size:10px}
 }
 @media(max-width:390px){
-  .top .date{flex:1 0 100%;justify-content:flex-end}
   .panel:last-of-type .head{flex-wrap:wrap}.panel:last-of-type .searchwrap{width:100%;flex:1 0 100%}
 }
 </style></head><body><div class="page">
